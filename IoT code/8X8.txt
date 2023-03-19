@@ -1,0 +1,9 @@
+Camera
+ls
+cd MAX7219-8X8-Driver-main
+ls
+cd test-lab
+ls
+python3 led-commands.py
+cd ..
+python3 test.py

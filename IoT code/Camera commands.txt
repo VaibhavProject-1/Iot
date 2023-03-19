@@ -1,0 +1,13 @@
+sudo apt-get upgrade
+sudo apt-get update 
+sudo raspi-config
+
+
+
+raspistill -o cam.jpg
+
+
+raspivid -o videoname.mp4
+
+
+To Run: omxplayer videoname.mp4
